@@ -2,23 +2,36 @@
     "products": [
         {
             "id" : 1,
-            "title" : "Ring1"
-        },
-        {
-            "id" : 2,
-            "title" : "Ring2"
-        },
-        {
-            "id" : 3,
-            "title" : "Ring3"
-        },
-        {
-            "id" : 4,
-            "title" : "Ring4"
-        },
-        {
-            "id" : 5,
-            "title" : "Ring5"
+            "title" : "Product1",
+            "thumbnailUrl" : "product1Thumbnail",
+            "info" : "Product 1 is the most charming thing out there, fukn buy it!",
+            "modelUrl" : "product1Model",
+            "modelComponents": {
+                "design1" : {
+                    "status" : true,
+                    "typeOfDesign": "stone"
+                },
+                "design2" : {
+                    "status" : false,
+                    "typeOfDesign": "stone"
+                },
+                "design3" : {
+                    "status" : false,
+                    "typeOfDesign": "stone"
+                },
+                "design4" : {
+                    "status" : true,
+                    "typeOfDesign" : "base"
+                },
+                "design5" : {
+                    "status" : false,
+                    "typeOfDesign" : "base"
+                },
+                "design6" : {
+                    "status" : false,
+                    "typeOfDesign" : "base"
+                }
+            }
         }
     ]
 }
