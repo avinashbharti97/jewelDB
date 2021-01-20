@@ -5,7 +5,7 @@
             "title" : "Product1",
             "thumbnailUrl" : "product1Thumbnail",
             "info" : "Product 1 is the most charming thing out there, fukn buy it!",
-            "modelUrl" : "product1Model",
+            "modelUrl" : "https://raw.githubusercontent.com/avinashbharti97/jewelDB/main/multiDesign.gltf",
             "modelComponents": {
                 "design1" : {
                     "status" : true,
