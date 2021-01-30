@@ -34,26 +34,31 @@
             },
             "element" : {
                 "e1" : {
+                    "eId" : "e1",
                     "elementTitle" : "Element 1",
                     "sId" : "s3",
                     "meshes" : ["Bezel", "object_1"]
                 },
                 "e2" : {
+                    "eId" : "e2",
                     "elementTitle" : "Element 2",
                     "sId" : "s1",
                     "meshes" : ["object_2"]
                 },
                 "e3" : {
+                    "eId" : "e3",
                     "elementTitle" : "Element 3",
                     "sId" : "s1",
                     "meshes" : ["object_3"]
                 },
                 "e4" : {
+                    "eId" : "e4",
                     "elementTitle" : "Element 4",
                     "sId" : "s2",
                     "meshes" : ["Diamond_Princess"]
                 },
                 "e5" : {
+                    "eId" : "e5",
                     "elementTitle" : "Element 5",
                     "sId" : "s2",
                     "meshes" : ["Diamond_Round"]
@@ -61,14 +66,17 @@
             },
             "set" : {
                 "s1" : {
+                    "sId" : "s1",
                     "setTitle" : "set 1",
                     "elements" : ["e2", "e3"]
                 },
                 "s2" : {
+                    "sId" : "s2",
                     "setTitle" : "set 1",
                     "elements" : ["e4", "e5"]
                 },
                 "s3" : {
+                    "sId" : "s3",
                     "setTitle" : "set 1",
                     "elements" : ["e1"]
                 }
