@@ -6,30 +6,71 @@
             "thumbnailUrl" : "product1Thumbnail",
             "info" : "Product 1 is the most charming thing out there, fukn buy it!",
             "modelUrl" : "https://raw.githubusercontent.com/avinashbharti97/jewelDB/main/multiDesign.gltf",
-            "modelComponents": {
-                "design1" : {
+            "mesh": {
+                "Bezel" : {
                     "status" : true,
-                    "typeOfDesign": "stone"
+                    "eId": "e1"
                 },
-                "design2" : {
-                    "status" : false,
-                    "typeOfDesign": "stone"
-                },
-                "design3" : {
-                    "status" : false,
-                    "typeOfDesign": "stone"
-                },
-                "design4" : {
+                "object_1" : {
                     "status" : true,
-                    "typeOfDesign" : "base"
+                    "eId": "e1"
                 },
-                "design5" : {
-                    "status" : false,
-                    "typeOfDesign" : "base"
+                "object_2" : {
+                    "status" : true,
+                    "eId": "e2"
                 },
-                "design6" : {
-                    "status" : false,
-                    "typeOfDesign" : "base"
+                "object_3" : {
+                    "status" : true,
+                    "eId" : "e3"
+                },
+                "Diamond_Princess" : {
+                    "status" : true,
+                    "eId" : "e4"
+                },
+                "Diamond_Round" : {
+                    "status" : true,
+                    "eId" : "e5"
+                }
+            },
+            "element" : {
+                "e1" : {
+                    "elementTitle" : "Element 1",
+                    "sId" : "s3",
+                    "meshes" : ["Bezel", "object_1"]
+                },
+                "e2" : {
+                    "elementTitle" : "Element 2",
+                    "sId" : "s1",
+                    "meshes" : ["object_2"]
+                },
+                "e3" : {
+                    "elementTitle" : "Element 3",
+                    "sId" : "s1",
+                    "meshes" : ["object_3"]
+                },
+                "e4" : {
+                    "elementTitle" : "Element 4",
+                    "sId" : "s2",
+                    "meshes" : ["Diamond_Princess"]
+                },
+                "e5" : {
+                    "elementTitle" : "Element 5",
+                    "sId" : "s2",
+                    "meshes" : ["Diamond_Round"]
+                }
+            },
+            "set" : {
+                "s1" : {
+                    "setTitle" : "set 1",
+                    "elements" : ["e2", "e3"]
+                },
+                "s2" : {
+                    "setTitle" : "set 1",
+                    "elements" : ["e4", "e5"]
+                },
+                "s3" : {
+                    "setTitle" : "set 1",
+                    "elements" : ["e1"]
                 }
             }
         },
