@@ -12,7 +12,7 @@
                 "eId":"e1"
              },
              "object_1":{
-                "status":false,
+                "status":true,
                 "eId":"e1"
              },
              "object_2":{
@@ -20,11 +20,11 @@
                 "eId":"e2"
              },
              "object_3":{
-                "status":false,
+                "status":true,
                 "eId":"e3"
              },
              "Diamond_Princess":{
-                "status":false,
+                "status":true,
                 "eId":"e4"
              },
              "Diamond_Rounds":{
@@ -35,44 +35,54 @@
           "element":{
              "e1":{
                 "eId":"e1",
+                "category":"Bezel",
                 "elementTitle":"Element 1",
                 "sId":"s3",
                 "meshes":[
                    "Bezel",
                    "object_1"
-                ]
+                ],
+                "tagMesh":"Bezel"
              },
              "e2":{
                 "eId":"e2",
+                "category":"Base",
                 "elementTitle":"Element 2",
                 "sId":"s1",
                 "meshes":[
                    "object_2"
-                ]
+                ],
+                "tagMesh":"object_2"
              },
              "e3":{
                 "eId":"e3",
+                "category":"Base",
                 "elementTitle":"Element 3",
                 "sId":"s1",
                 "meshes":[
                    "object_3"
-                ]
+                ],
+                "tagMesh":"object_3"
              },
              "e4":{
                 "eId":"e4",
+                "category":"Stone",
                 "elementTitle":"Element 4",
                 "sId":"s2",
                 "meshes":[
                    "Diamond_Princess"
-                ]
+                ],
+                "tagMesh":"Diamond_Princess"
              },
              "e5":{
                 "eId":"e5",
+                "category":"Stone",
                 "elementTitle":"Element 5",
                 "sId":"s2",
                 "meshes":[
                    "Diamond_Rounds"
-                ]
+                ],
+                "tagMesh":"Diamond_Rounds"
              }
           },
           "set":{
@@ -82,7 +92,8 @@
                 "elements":[
                    "e2",
                    "e3"
-                ]
+                ],
+                "categories":["Base"]
              },
              "s2":{
                 "sId":"s2",
@@ -90,14 +101,17 @@
                 "elements":[
                    "e4",
                    "e5"
-                ]
+                ],
+                "categories":["Stone"]
              },
              "s3":{
                 "sId":"s3",
+"category":"Engraving",
                 "setTitle":"set 1",
                 "elements":[
                    "e1"
-                ]
+                ],
+                "categories":["Bezel"]
              }
           }
        },
@@ -890,6 +904,7 @@
                 "eId":"e1",
                 "elementTitle":"Element 1",
                 "sId":"s1",
+                "category":"Base",
                 "meshes":[
                    "object_167"
                 ]
@@ -898,6 +913,7 @@
                 "eId":"e2",
                 "elementTitle":"Element 2",
                 "sId":"s1",
+                "category":"Base",
                 "meshes":[
                    "object_165"
                 ]
@@ -906,6 +922,7 @@
                 "eId":"e3",
                 "elementTitle":"Element 3",
                 "sId":"s2",
+                "category":"Plain Top",
                 "meshes":[
                    "object_168"
                 ]
@@ -914,6 +931,7 @@
                 "eId":"e4",
                 "elementTitle":"Element 4",
                 "sId":"s2",
+                "category":"Plain Top",
                 "meshes":[
                    "object_166"
                 ]
@@ -922,6 +940,7 @@
                 "eId":"e5",
                 "elementTitle":"Element 5",
                 "sId":"s3",
+                "category":"Stone",
                 "meshes":[
                    "object_22",
                    "Diamond_Round_26",
@@ -945,22 +964,26 @@
                    "Diamond_Round_44",
                    "Diamond_Round_45",
                    "Diamond_Round_46"
-                ]
+                ],
+                "tagMesh":"object_22"
              },
              "e6":{
                 "eId":"e6",
                 "elementTitle":"Element 6",
                 "sId":"s3",
+                "category":"Stone",
                 "meshes":[
                    "Diamond_Round_1",
                    "Diamond_Round_2",
                    "object_13"
-                ]
+                ],
+                "tagMesh":"object_13"
              },
              "e7":{
                 "eId":"e7",
                 "elementTitle":"Element 7",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_5",
                    "object_6",
@@ -968,12 +991,14 @@
                    "object_8",
                    "object_9",
                    "object_10"
-                ]
+                ],
+                "tagMesh":"object_10"
              },
              "e8":{
                 "eId":"e8",
                 "elementTitle":"Element 8",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_19",
                    "object_20"
@@ -983,6 +1008,7 @@
                 "eId":"e9",
                 "elementTitle":"Element 9",
                 "sId":"s3",
+                "category":"Stone",
                 "meshes":[
                    "object_14",
                    "object_15",
@@ -993,6 +1019,7 @@
                 "eId":"e10",
                 "elementTitle":"Element 10",
                 "sId":"s3",
+                "category":"Stone",
                 "meshes":[
                    "Diamond_Round",
                    "object_3"
@@ -1002,6 +1029,7 @@
                 "eId":"e11",
                 "elementTitle":"Element 11",
                 "sId":"s3",
+                "category":"Stone",
                 "meshes":[
                    "object_32",
                    "Diamond_Round_47"
@@ -1011,6 +1039,7 @@
                 "eId":"e12",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_1"
                 ]
@@ -1019,6 +1048,7 @@
                 "eId":"e13",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_2"
                 ]
@@ -1027,6 +1057,7 @@
                 "eId":"e14",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_3"
                 ]
@@ -1035,6 +1066,7 @@
                 "eId":"e15",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_4"
                 ]
@@ -1043,6 +1075,7 @@
                 "eId":"e16",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_11"
                 ]
@@ -1051,6 +1084,7 @@
                 "eId":"e17",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_12"
                 ]
@@ -1059,6 +1093,7 @@
                 "eId":"e18",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_16"
                 ]
@@ -1067,6 +1102,7 @@
                 "eId":"e19",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_17"
                 ]
@@ -1075,6 +1111,7 @@
                 "eId":"e20",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_18"
                 ]
@@ -1083,6 +1120,7 @@
                 "eId":"e21",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_21"
                 ]
@@ -1091,6 +1129,7 @@
                 "eId":"e22",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_23"
                 ]
@@ -1099,6 +1138,7 @@
                 "eId":"e23",
                 "elementTitle":"Element",
                 "sId":"s3",
+                "category":"Engraving",
                 "meshes":[
                    "object_24"
                 ]
@@ -1107,6 +1147,7 @@
                 "eId":"e24",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_25"
                 ]
@@ -1115,6 +1156,7 @@
                 "eId":"e25",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_26"
                 ]
@@ -1123,6 +1165,7 @@
                 "eId":"e26",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_27"
                 ]
@@ -1131,6 +1174,7 @@
                 "eId":"e27",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_28"
                 ]
@@ -1139,6 +1183,7 @@
                 "eId":"e28",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_29"
                 ]
@@ -1147,6 +1192,7 @@
                 "eId":"e29",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_30"
                 ]
@@ -1155,6 +1201,7 @@
                 "eId":"e30",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_31"
                 ]
@@ -1163,6 +1210,7 @@
                 "eId":"e31",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_32"
                 ]
@@ -1171,6 +1219,7 @@
                 "eId":"e32",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_33"
                 ]
@@ -1179,6 +1228,7 @@
                 "eId":"e33",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_34"
                 ]
@@ -1187,6 +1237,7 @@
                 "eId":"e34",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_35"
                 ]
@@ -1195,6 +1246,7 @@
                 "eId":"e35",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_36"
                 ]
@@ -1203,6 +1255,7 @@
                 "eId":"e36",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_37"
                 ]
@@ -1211,6 +1264,7 @@
                 "eId":"e37",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_38"
                 ]
@@ -1219,6 +1273,7 @@
                 "eId":"e38",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_39"
                 ]
@@ -1227,6 +1282,7 @@
                 "eId":"e39",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_40"
                 ]
@@ -1235,6 +1291,7 @@
                 "eId":"e40",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_41"
                 ]
@@ -1243,6 +1300,7 @@
                 "eId":"e41",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_42"
                 ]
@@ -1251,6 +1309,7 @@
                 "eId":"e42",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_43"
                 ]
@@ -1259,6 +1318,7 @@
                 "eId":"e43",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_44"
                 ]
@@ -1267,6 +1327,7 @@
                 "eId":"e44",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_45"
                 ]
@@ -1275,6 +1336,7 @@
                 "eId":"e45",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_46"
                 ]
@@ -1283,6 +1345,7 @@
                 "eId":"e46",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_47"
                 ]
@@ -1291,6 +1354,7 @@
                 "eId":"e47",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_48"
                 ]
@@ -1299,6 +1363,7 @@
                 "eId":"e48",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_49"
                 ]
@@ -1307,6 +1372,7 @@
                 "eId":"e49",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_50"
                 ]
@@ -1315,6 +1381,7 @@
                 "eId":"e50",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_51"
                 ]
@@ -1323,6 +1390,7 @@
                 "eId":"e51",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_52"
                 ]
@@ -1331,6 +1399,7 @@
                 "eId":"e52",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_53"
                 ]
@@ -1339,6 +1408,7 @@
                 "eId":"e53",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_54"
                 ]
@@ -1347,6 +1417,7 @@
                 "eId":"e54",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_55"
                 ]
@@ -1355,6 +1426,7 @@
                 "eId":"e55",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_56"
                 ]
@@ -1363,6 +1435,7 @@
                 "eId":"e56",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_57"
                 ]
@@ -1371,6 +1444,7 @@
                 "eId":"e57",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_58"
                 ]
@@ -1379,6 +1453,7 @@
                 "eId":"e58",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_59"
                 ]
@@ -1387,6 +1462,7 @@
                 "eId":"e59",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_60"
                 ]
@@ -1395,6 +1471,7 @@
                 "eId":"e60",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_61"
                 ]
@@ -1403,6 +1480,7 @@
                 "eId":"e61",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_62"
                 ]
@@ -1411,6 +1489,7 @@
                 "eId":"e62",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_63"
                 ]
@@ -1419,6 +1498,7 @@
                 "eId":"e63",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_64"
                 ]
@@ -1427,6 +1507,7 @@
                 "eId":"e64",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_65"
                 ]
@@ -1435,6 +1516,7 @@
                 "eId":"e65",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_66"
                 ]
@@ -1443,6 +1525,7 @@
                 "eId":"e66",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_67"
                 ]
@@ -1451,6 +1534,7 @@
                 "eId":"e67",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_68"
                 ]
@@ -1459,6 +1543,7 @@
                 "eId":"e68",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_69"
                 ]
@@ -1467,6 +1552,7 @@
                 "eId":"e69",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_70"
                 ]
@@ -1475,6 +1561,7 @@
                 "eId":"e70",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_71"
                 ]
@@ -1483,6 +1570,7 @@
                 "eId":"e71",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_72"
                 ]
@@ -1491,6 +1579,7 @@
                 "eId":"e72",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_73"
                 ]
@@ -1499,6 +1588,7 @@
                 "eId":"e73",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_74"
                 ]
@@ -1507,6 +1597,7 @@
                 "eId":"e74",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_75"
                 ]
@@ -1515,6 +1606,7 @@
                 "eId":"e75",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_76"
                 ]
@@ -1523,6 +1615,7 @@
                 "eId":"e76",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_77"
                 ]
@@ -1531,6 +1624,7 @@
                 "eId":"e77",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_78"
                 ]
@@ -1539,6 +1633,7 @@
                 "eId":"e78",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_79"
                 ]
@@ -1547,6 +1642,7 @@
                 "eId":"e79",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_80"
                 ]
@@ -1555,6 +1651,7 @@
                 "eId":"e80",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_81"
                 ]
@@ -1563,6 +1660,7 @@
                 "eId":"e81",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_82"
                 ]
@@ -1571,6 +1669,7 @@
                 "eId":"e82",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_83"
                 ]
@@ -1579,6 +1678,7 @@
                 "eId":"e83",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_84"
                 ]
@@ -1587,6 +1687,7 @@
                 "eId":"e84",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_85"
                 ]
@@ -1595,6 +1696,7 @@
                 "eId":"e85",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_86"
                 ]
@@ -1603,6 +1705,7 @@
                 "eId":"e86",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_87"
                 ]
@@ -1611,6 +1714,7 @@
                 "eId":"e87",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_88"
                 ]
@@ -1619,6 +1723,7 @@
                 "eId":"e88",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_89"
                 ]
@@ -1627,6 +1732,7 @@
                 "eId":"e89",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_90"
                 ]
@@ -1635,6 +1741,7 @@
                 "eId":"e90",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_91"
                 ]
@@ -1643,6 +1750,7 @@
                 "eId":"e91",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_92"
                 ]
@@ -1651,6 +1759,7 @@
                 "eId":"e92",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_93"
                 ]
@@ -1659,6 +1768,7 @@
                 "eId":"e93",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_94"
                 ]
@@ -1667,6 +1777,7 @@
                 "eId":"e94",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_95"
                 ]
@@ -1675,6 +1786,7 @@
                 "eId":"e95",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_96"
                 ]
@@ -1683,6 +1795,7 @@
                 "eId":"e96",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_97"
                 ]
@@ -1691,6 +1804,7 @@
                 "eId":"e97",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_98"
                 ]
@@ -1699,6 +1813,7 @@
                 "eId":"e98",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_99"
                 ]
@@ -1707,6 +1822,7 @@
                 "eId":"e99",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_100"
                 ]
@@ -1715,6 +1831,7 @@
                 "eId":"e100",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_101"
                 ]
@@ -1723,6 +1840,7 @@
                 "eId":"e101",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_102"
                 ]
@@ -1731,6 +1849,7 @@
                 "eId":"e102",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_103"
                 ]
@@ -1739,6 +1858,7 @@
                 "eId":"e103",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_104"
                 ]
@@ -1747,6 +1867,7 @@
                 "eId":"e104",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_105"
                 ]
@@ -1755,6 +1876,7 @@
                 "eId":"e105",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_106"
                 ]
@@ -1763,6 +1885,7 @@
                 "eId":"e106",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_107"
                 ]
@@ -1771,6 +1894,7 @@
                 "eId":"e107",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_108"
                 ]
@@ -1779,6 +1903,7 @@
                 "eId":"e108",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_109"
                 ]
@@ -1787,6 +1912,7 @@
                 "eId":"e109",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_110"
                 ]
@@ -1795,6 +1921,7 @@
                 "eId":"e110",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_111"
                 ]
@@ -1803,6 +1930,7 @@
                 "eId":"e111",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_112"
                 ]
@@ -1811,6 +1939,7 @@
                 "eId":"e112",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_113"
                 ]
@@ -1819,6 +1948,7 @@
                 "eId":"e113",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_114"
                 ]
@@ -1827,6 +1957,7 @@
                 "eId":"e114",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_115"
                 ]
@@ -1835,6 +1966,7 @@
                 "eId":"e115",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_116"
                 ]
@@ -1843,6 +1975,7 @@
                 "eId":"e116",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_117"
                 ]
@@ -1851,6 +1984,7 @@
                 "eId":"e117",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_118"
                 ]
@@ -1859,6 +1993,7 @@
                 "eId":"e118",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_119"
                 ]
@@ -1867,6 +2002,7 @@
                 "eId":"e119",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_120"
                 ]
@@ -1875,6 +2011,7 @@
                 "eId":"e120",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_121"
                 ]
@@ -1883,6 +2020,7 @@
                 "eId":"e121",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_122"
                 ]
@@ -1891,6 +2029,7 @@
                 "eId":"e122",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_123"
                 ]
@@ -1899,6 +2038,7 @@
                 "eId":"e123",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_124"
                 ]
@@ -1907,6 +2047,7 @@
                 "eId":"e124",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_125"
                 ]
@@ -1915,6 +2056,7 @@
                 "eId":"e125",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_126"
                 ]
@@ -1923,6 +2065,7 @@
                 "eId":"e126",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_127"
                 ]
@@ -1931,6 +2074,7 @@
                 "eId":"e127",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_128"
                 ]
@@ -1939,6 +2083,7 @@
                 "eId":"e128",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_129"
                 ]
@@ -1947,6 +2092,7 @@
                 "eId":"e129",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_130"
                 ]
@@ -1955,6 +2101,7 @@
                 "eId":"e130",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_131"
                 ]
@@ -1963,6 +2110,7 @@
                 "eId":"e131",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_132"
                 ]
@@ -1971,6 +2119,7 @@
                 "eId":"e132",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_133"
                 ]
@@ -1979,6 +2128,7 @@
                 "eId":"e133",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_134"
                 ]
@@ -1987,6 +2137,7 @@
                 "eId":"e134",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_135"
                 ]
@@ -1995,6 +2146,7 @@
                 "eId":"e135",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_136"
                 ]
@@ -2003,6 +2155,7 @@
                 "eId":"e136",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_137"
                 ]
@@ -2011,6 +2164,7 @@
                 "eId":"e137",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_138"
                 ]
@@ -2019,6 +2173,7 @@
                 "eId":"e138",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_139"
                 ]
@@ -2027,6 +2182,7 @@
                 "eId":"e139",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_140"
                 ]
@@ -2035,6 +2191,7 @@
                 "eId":"e140",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_141"
                 ]
@@ -2043,6 +2200,7 @@
                 "eId":"e141",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_142"
                 ]
@@ -2051,6 +2209,7 @@
                 "eId":"e142",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_143"
                 ]
@@ -2059,6 +2218,7 @@
                 "eId":"e143",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_144"
                 ]
@@ -2067,6 +2227,7 @@
                 "eId":"e144",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_145"
                 ]
@@ -2075,6 +2236,7 @@
                 "eId":"e145",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_146"
                 ]
@@ -2083,6 +2245,7 @@
                 "eId":"e146",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_147"
                 ]
@@ -2091,6 +2254,7 @@
                 "eId":"e147",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_148"
                 ]
@@ -2099,6 +2263,7 @@
                 "eId":"e148",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_149"
                 ]
@@ -2107,6 +2272,7 @@
                 "eId":"e149",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_150"
                 ]
@@ -2115,6 +2281,7 @@
                 "eId":"e150",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_151"
                 ]
@@ -2123,6 +2290,7 @@
                 "eId":"e151",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_152"
                 ]
@@ -2131,6 +2299,7 @@
                 "eId":"e152",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_153"
                 ]
@@ -2139,6 +2308,7 @@
                 "eId":"e153",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_154"
                 ]
@@ -2147,6 +2317,7 @@
                 "eId":"e154",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_155"
                 ]
@@ -2155,6 +2326,7 @@
                 "eId":"e155",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_156"
                 ]
@@ -2163,6 +2335,7 @@
                 "eId":"e156",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_157"
                 ]
@@ -2171,6 +2344,7 @@
                 "eId":"e157",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_158"
                 ]
@@ -2179,6 +2353,7 @@
                 "eId":"e158",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_159"
                 ]
@@ -2187,6 +2362,7 @@
                 "eId":"e159",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_160"
                 ]
@@ -2195,6 +2371,7 @@
                 "eId":"e160",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_161"
                 ]
@@ -2203,6 +2380,7 @@
                 "eId":"e161",
                 "elementTitle":"Element",
                 "sId":"s3",
+"category":"Engraving",
                 "meshes":[
                    "object_162"
                 ]
@@ -2215,7 +2393,8 @@
                 "elements":[
                    "e1",
                    "e2"
-                ]
+                ],
+                "categories":["Base"]
              },
              "s2":{
                 "sId":"s2",
@@ -2223,11 +2402,14 @@
                 "elements":[
                    "e3",
                    "e4"
-                ]
+                ],
+                "categories":["Plain Top"]
              },
              "s3":{
                 "sId":"s3",
+"category":"Engraving",
                 "setTitle":"set 1",
+                "categories":["Stone", "Engraving"],
                 "elements":[
                    "e5",
                    "e6",
